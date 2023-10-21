@@ -1,0 +1,37 @@
+.dir {
+    display: flex;
+    margin: 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.423);
+    cursor: pointer;
+    align-items: center;
+    padding: 10px 5px;
+    padding-right: 10px;
+    justify-content: space-between;
+    user-select: none;
+}
+
+.dir:hover {
+    background-color: #42a4f51b;
+}
+
+.icon {
+    width: 36px;
+    height: 36px;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+}
+
+.name > span {
+    margin-left: 15px;
+}
+
+.path {
+    cursor: pointer;
+}
+
+.path:hover {
+    border-bottom: 1px solid black;
+}
